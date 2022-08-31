@@ -1,0 +1,93 @@
+body {
+  background-color: #f7f7f7;
+  font-family: arial;
+  margin: 0px;
+}
+
+.botoes p {
+  font-size: 20px;
+  margin: 0px;
+}
+
+.logo {
+  display: flex;
+  margin-top: 50px;
+  margin-bottom: 50px;
+  justify-content: center;
+}
+
+.menu {
+  display: flex;
+  gap: 20px;
+  justify-content: center;
+}
+
+.botoes {
+  background-color: white;
+  padding: 10px 20px;
+  border-radius: 4px;
+}
+
+.bike {
+  width: 100%;
+}
+
+.containerPai {
+  padding: 100px;
+  margin-top: 50px;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  border: 10px;
+}
+
+.mensagem {
+  padding: 20px;
+  background-color: white;
+  justify-items: center;
+}
+
+.mensagem p {
+  text-align: end;
+}
+a {
+  display: flex;
+  text-decoration: none;
+  color: white;
+  background-color: #ee2211;
+  padding: 15px 15px;
+  border-radius: 4px;
+  justify-items: end;
+  align-content: flex-start;
+  width: 90px;
+}
+
+.vantagens {
+  margin-left: 10px;
+  flex-direction: column;
+  display: flex;
+  font-size: 54px;
+  color: #c6c6c6;
+  justify-content: center;
+  align-items: flex-end;
+}
+
+.vantagens,
+h2 {
+  margin: 0px;
+}
+
+.containerText {
+  background-color: white;
+  padding: 30px;
+}
+
+.text4 {
+  display: flex;
+  gap: 10px;
+}
+
+.rodape {
+  text-align: center;
+  padding: 20px;
+  background-color: white;
+}
