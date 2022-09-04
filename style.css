@@ -2,6 +2,8 @@ body {
   background-color: #f7f7f7;
   font-family: arial;
   margin: 0px;
+  display: grid;
+  justify-content: center;
 }
 
 .botoes p {
@@ -28,57 +30,56 @@ body {
   border-radius: 4px;
 }
 
-.bike {
-  width: 100%;
+.bicicleta {
+  width: 550px;
 }
 
 .containerPai {
-  padding: 100px;
-  margin-top: 50px;
+  width: 100%;
+  margin-top: 30px;
   display: grid;
+  justify-content: center;
   grid-template-columns: 1fr 1fr;
-  border: 10px;
 }
 
 .mensagem {
   padding: 20px;
+  display: flex;
+  flex-direction: column;
   background-color: white;
-  justify-items: center;
-}
-
-.mensagem p {
+  justify-content: center;
+  align-items: flex-end;
   text-align: end;
 }
-a {
+
+.botao {
   display: flex;
+  justify-content: end;
+  align-self: flex-end;
+}
+
+a {
   text-decoration: none;
   color: white;
   background-color: #ee2211;
   padding: 15px 15px;
   border-radius: 4px;
-  justify-items: end;
-  align-content: flex-start;
   width: 90px;
 }
 
 .vantagens {
-  margin-left: 10px;
-  flex-direction: column;
-  display: flex;
+  margin-right: 25px;
+  margin-left: 30px;
+  text-align: end;
+  margin-top: 50px;
   font-size: 54px;
   color: #c6c6c6;
-  justify-content: center;
-  align-items: flex-end;
-}
-
-.vantagens,
-h2 {
-  margin: 0px;
 }
 
 .containerText {
   background-color: white;
   padding: 30px;
+  width: 490px;
 }
 
 .text4 {
@@ -87,7 +88,19 @@ h2 {
 }
 
 .rodape {
+  margin-top: 50px;
   text-align: center;
   padding: 20px;
   background-color: white;
+  width: 100%;
+  box-sizing: border-box;
+}
+
+.traco {
+  background-color: red;
+  padding: 2px 30px;
+  border-radius: 50px;
+  position: absolute;
+  margin-left: 522px;
+  margin-top: 20px;
 }
