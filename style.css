@@ -3,7 +3,7 @@ body {
   font-family: arial;
   margin: 0px;
   display: grid;
-  justify-content: center;
+  justify-items: center;
 }
 
 .botoes p {
@@ -35,7 +35,7 @@ body {
 }
 
 .containerPai {
-  width: 100%;
+  max-width: 1000px;
   margin-top: 30px;
   display: grid;
   justify-content: center;
@@ -43,36 +43,31 @@ body {
 }
 
 .mensagem {
-  padding: 20px;
-  display: flex;
-  flex-direction: column;
+  display: grid;
   background-color: white;
-  justify-content: center;
-  align-items: flex-end;
-  text-align: end;
+  padding: 40px;
+  text-align: right;
+  align-content: center;
+  justify-items: end;
 }
 
 .botao {
-  display: flex;
-  justify-content: end;
-  align-self: flex-end;
-}
-
-a {
   text-decoration: none;
-  color: white;
   background-color: #ee2211;
-  padding: 15px 15px;
+  color: white;
+  padding: 15px 30px;
   border-radius: 4px;
-  width: 90px;
 }
 
 .vantagens {
+  display: grid;
+  justify-self: end;
+  width: 490px;
   margin-right: 25px;
   margin-left: 30px;
   text-align: end;
   margin-top: 50px;
-  font-size: 54px;
+  font-size: 50px;
   color: #c6c6c6;
 }
 
@@ -88,12 +83,11 @@ a {
 }
 
 .rodape {
-  margin-top: 50px;
-  text-align: center;
-  padding: 20px;
   background-color: white;
   width: 100%;
-  box-sizing: border-box;
+  padding: 20px 0px;
+  text-align: center;
+  margin-top: 30px;
 }
 
 .traco {
@@ -101,6 +95,6 @@ a {
   padding: 2px 30px;
   border-radius: 50px;
   position: absolute;
-  margin-left: 522px;
+  margin-left: 468px;
   margin-top: 20px;
 }
